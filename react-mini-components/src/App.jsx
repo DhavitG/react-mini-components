@@ -1,5 +1,6 @@
 
 import './App.css'
+import ImageSlider from './Components/ImageSlider'
 import RandomColor from './Components/RandomColor'
 import StarRating from './Components/StarRating'
 
@@ -10,7 +11,11 @@ function App() {
       {/* Random Color Generator
       <RandomColor /> */}
 
-      <StarRating numberOfStars={10}/>
+      {/* Star Rating Component
+      <StarRating numberOfStars={10}/> */}
+
+      hello
+      <ImageSlider url={"https://picsum.photos/v2/list"} page={1} limit={10}/>
     </div>
   )
 }
